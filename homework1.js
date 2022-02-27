@@ -138,12 +138,12 @@ const num1 = +prompt('1st number')
 const num2 = +prompt('2nd number')
 const num3 = +prompt('3rd number')
 
-if(num1 > num2 && num1 > num3) {
-    alert('num1 is max')
-} else if(num2 > num3) {
-    alert('num2 is max')
+if(num1 >= num2 && num1 >= num3) {
+    alert(num1)
+} else if(num2 >= num3) {
+    alert(num2)
 } else {
-    alert ('num3 is max')
+    alert (num3)
 }
 
 
