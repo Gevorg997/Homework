@@ -65,13 +65,20 @@ if(num < 0) {
 let number1 = +prompt('Input 1st number')
 let number2 = +prompt('Input 2nd number')
 
-if(number1 % number2 === 0) {
-    alert(1) 
-} else if(number2 % number1 === 0) {
+if(number1 % number2 === 0 || number2 % number1 === 0) {
     alert(1)
 } else {
-    alert(0) 
+    alert(0)
 }
+
+//old version
+//if(number1 % number2 === 0) {
+//   alert(1) 
+//} else if(number2 % number1 === 0) {
+//    alert(1)
+//} else {
+//    alert(0) 
+//}
 
 
 //6.	Given any number between 1 and 12. Print the name of the respective month.
