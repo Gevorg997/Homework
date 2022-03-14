@@ -57,7 +57,7 @@ console.log(y)
 //5. Insert a n positive number. Print the n-st prime number.
 
 function prime(x) {
-let arr = []
+let arr = [2]
 
 for(let i = 2; i < 10*x; i++){
     arr.push(i)
@@ -68,7 +68,7 @@ for(let i = 2; i < 10*x; i++){
         }    
     }
 }
-console.log(arr)
+return console.log(arr[x])
 }
 
 
