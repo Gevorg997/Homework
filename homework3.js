@@ -68,7 +68,7 @@ for(let i = 2; i < 10*x; i++){
         }    
     }
 }
-return console.log(arr[x])
+return arr[x]
 }
 
 
