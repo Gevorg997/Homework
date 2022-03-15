@@ -23,9 +23,7 @@ console.log(sum)
 
 let num1 = +prompt('Input 1st number')
 let num2 = +prompt('Input 2nd number')
-let n1 = 0
-let n2 = 0
-let pow = 1
+let n1 = 0 , n2 = 0 , pow = 1
 
 while(num1 > 1) {
     n1++
@@ -35,7 +33,6 @@ while(num2 > 1) {
     n2++
     num2 = num2 / 2
     } 
-
 for(let i = 1;  i < n2; i++) {
     pow *= 2
     if(i >= n1) {
@@ -56,10 +53,10 @@ console.log(y)
 
 //5. Insert a n positive number. Print the n-st prime number.
 
-function prime(x) {
+function prime(n) {
 let arr = [2]
 
-for(let i = 2; i < 10*x; i++){
+for(let i = 2; i < 10*n; i++){
     arr.push(i)
     for(let j = 2; j < i ; j++){
         if(i % j == 0){
@@ -68,7 +65,7 @@ for(let i = 2; i < 10*x; i++){
         }    
     }
 }
-return arr[x]
+return arr[n]
 }
 
 
