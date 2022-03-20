@@ -84,7 +84,7 @@ let num = 0
 for(i = 1; i <= n; i++) {
     num += i*Math.pow(10,n-i)
 }
-
+// for 12345, just insert 5
 for(i = 1; i <= num; i = 10*i + i%10 + 1){
     console.log(i)
    }
